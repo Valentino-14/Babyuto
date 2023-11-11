@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main() {
+    // Input dari pengguna
+    double bilangan1, bilangan2;
+    std::cout << "Masukkan bilangan pertama: ";
+    std::cin >> bilangan1;
+
+    std::cout << "Masukkan bilangan kedua: ";
+    std::cin >> bilangan2;
+
+    // Operasi matematika
+    double penambahan = bilangan1 + bilangan2;
+    double pengurangan = bilangan1 - bilangan2;
+    double perkalian = bilangan1 * bilangan2;
+    double pembagian = bilangan1 / bilangan2;
+
+    // Menampilkan hasil
+    std::cout << "Hasil Penambahan: " << penambahan << std::endl;
+    std::cout << "Hasil Pengurangan: " << pengurangan << std::endl;
+    std::cout << "Hasil Perkalian: " << perkalian << std::endl;
+    std::cout << "Hasil Pembagian: " << pembagian << std::endl;
+
+    return 0;
+}
